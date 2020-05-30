@@ -3,7 +3,7 @@
 ---
 - Work on a separate branch. Create Pull Requests for merging things to master. Reviews are done before merging.
 - The Pull Requests should mentions what is the update you are providing.
-- The Commit Message should neat enough. Follow the guidelines [below](#commit)
+- The Commit Message should neat enough. Follow the guidelines [below](#commit). Use the same format for pull requests also.
 - You should develop components as isolated as possible. (use storybook to maintain the isolation)
 - Each component should have at least a story. It should describe the whole component. So that we can develop reusable products.
 - You should use tailwind css utility classes for developing this css project.
