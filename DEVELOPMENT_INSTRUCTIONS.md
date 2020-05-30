@@ -1,7 +1,7 @@
 ### Development Instructions
 
 ---
-- Install all the packages from package.json using `npm install`.
+- Work on a separate branch. Create Pull Requests for merging things to master. Reviews are done before merging
 - You should develop components as isolated as possible. (use storybook to maintain the isolation)
 - Each component should have at least a story. It should describe the whole component. So that we can develop reusable products.
 - You should use tailwind css utility classes for developing this css project.
