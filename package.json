@@ -11,7 +11,9 @@
     "react-dom": "^16.13.1",
     "react-scripts": "3.4.1",
     "prop-types": "latest",
-    "emotion": "latest"
+    "emotion": "latest",
+    "professordev-designsystem": "latest",
+    "lodash": "latest"
   },
   "scripts": {
     "start": "npm run watch:css && react-scripts start",
@@ -46,11 +48,11 @@
     "@storybook/addon-storysource": "^5.3.19",
     "@storybook/addon-viewport": "^5.3.19",
     "@storybook/addons": "^5.3.19",
-    "@storybook/preset-create-react-app": "^3.0.0",
+    "@storybook/client-api": "latest",
+    "@storybook/preset-create-react-app": "^3.1.4",
     "@storybook/react": "^5.3.19",
-    "autoprefixer": "^9.8.0",
+    "autoprefixer": "^9.8.6",
     "postcss-cli": "^7.1.1",
-    "tailwindcss": "^1.4.6",
-    "@storybook/client-api": "latest"
+    "tailwindcss": "^1.6.0"
   }
 }
