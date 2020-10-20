@@ -3,17 +3,18 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.15.1",
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.5.0",
     "@testing-library/user-event": "^7.2.1",
     "classnames": "^2.2.6",
+    "emotion": "latest",
+    "lodash": "latest",
+    "professordev-designsystem": "latest",
+    "prop-types": "latest",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
-    "react-scripts": "3.4.1",
-    "prop-types": "latest",
-    "emotion": "latest",
-    "professordev-designsystem": "latest",
-    "lodash": "latest"
+    "react-scripts": "3.4.1"
   },
   "scripts": {
     "start": "npm run watch:css && react-scripts start",
@@ -41,16 +42,16 @@
     ]
   },
   "devDependencies": {
-    "@storybook/addon-actions": "^5.3.19",
-    "@storybook/addon-docs": "^5.3.19",
-    "@storybook/addon-knobs": "^5.3.19",
-    "@storybook/addon-links": "^5.3.19",
-    "@storybook/addon-storysource": "^5.3.19",
-    "@storybook/addon-viewport": "^5.3.19",
-    "@storybook/addons": "^5.3.19",
+    "@storybook/addon-actions": "^6.0.26",
+    "@storybook/addon-docs": "^6.0.26",
+    "@storybook/addon-knobs": "^6.0.26",
+    "@storybook/addon-links": "^6.0.26",
+    "@storybook/addon-storysource": "^6.0.26",
+    "@storybook/addon-viewport": "^6.0.26",
+    "@storybook/addons": "^6.0.26",
     "@storybook/client-api": "latest",
     "@storybook/preset-create-react-app": "^3.1.4",
-    "@storybook/react": "^5.3.19",
+    "@storybook/react": "^6.0.26",
     "autoprefixer": "^9.8.6",
     "postcss-cli": "^7.1.1",
     "tailwindcss": "^1.6.0"
