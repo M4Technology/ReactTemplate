@@ -1,4 +1,5 @@
 import '../src/cssImport';
+import '../src/tailwind.css';
 import { addParameters } from '@storybook/client-api';
 import resolveConfig from 'tailwindcss/resolveConfig'
 import tailwindConfig from '../src/tailwind.config.js';

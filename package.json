@@ -3,26 +3,29 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@craco/craco": "^6.0.0",
     "@fortawesome/fontawesome-free": "^5.15.1",
+    "@tailwindcss/postcss7-compat": "^2.0.2",
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.5.0",
     "@testing-library/user-event": "^7.2.1",
     "classnames": "^2.2.6",
     "emotion": "latest",
     "lodash": "latest",
+    "postcss": "^7.0.35",
     "professordev-designsystem": "latest",
     "prop-types": "latest",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
-    "react-scripts": "3.4.1"
+    "react-scripts": "^4.0.1"
   },
   "scripts": {
-    "start": "npm run watch:css && react-scripts start",
-    "build": "npm run build:css && react-scripts build",
-    "test": "react-scripts test",
+    "start": "craco start",
+    "build": "craco build",
+    "test": "craco test",
     "eject": "react-scripts eject",
-    "watch:css": "postcss src/assets/css/*.css --dir src/assets/css/build",
-    "build:css": "postcss src/assets/css/*.css --dir src/assets/css/build",
+    "watch:css": "npx tailwindcss-cli@latest build ./src/index.css -o ./src/tailwind.css",
+    "build:css": "npx tailwindcss-cli@latest build ./src/index.css -o ./src/tailwind.css",
     "storybook": "npm run watch:css && start-storybook -p 9009 -s public",
     "build-storybook": "npm run build:css && build-storybook -s public"
   },
@@ -54,6 +57,6 @@
     "@storybook/react": "^6.1.11",
     "autoprefixer": "^9.8.6",
     "postcss-cli": "^7.1.1",
-    "tailwindcss": "^1.6.0"
+    "tailwindcss": "npm:@tailwindcss/postcss7-compat@^2.0.2"
   }
 }
