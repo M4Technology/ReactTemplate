@@ -12,7 +12,7 @@
     "classnames": "^2.2.6",
     "emotion": "latest",
     "lodash": "latest",
-    "postcss": "^7.0.35",
+    "postcss": "^8.2.10",
     "professordev-designsystem": "latest",
     "prop-types": "latest",
     "react": "^16.13.1",
